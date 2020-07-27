@@ -3,7 +3,7 @@ Description=Homeware LAN Redis
 After=network-online.target
 
 [Service]
-ExecStart=redis-server
+ExecStart=/usr/local/bin/redis-server
 WorkingDirectory=/home/pi/Homeware-LAN/redis/redis-stable/
 StandardOutput=inherit
 StandardError=inherit
